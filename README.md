@@ -12,35 +12,64 @@ Ce projet vise à entraîner et évaluer des taggers morpho-syntaxiques (POS Tag
 your-project/
 
 ├── README.md                      # Description générale du projet (ce fichier)
+
 ├── requirements.txt               # Liste des dépendances Python
+
 ├── French/                        # Corpus UD en français
+
 │   ├── fr_partut-ud-train.conllu
+
 │   ├── fr_partut-ud-dev.conllu
+
 │   └── fr_partut-ud-test.conllu
+
 ├── algerian_dialect/             # Corpus UD pour le dialecte algérien
+
 │   ├── qaf_arabizi-ud-train.conllu
+
 │   ├── qaf_arabizi-ud-dev.conllu
+
 │   └── qaf_arabizi-ud-test.conllu
+
 ├── notebooks/                     # Notebooks Jupyter d'entraînement et d'évaluation
+
 │   ├── algeria/
+
 │   │   ├── TP1qaf.ipynb          # Notebooks spécifiques au dialecte algérien
+
 │   │   └── TP3qaf.ipynb
+
 │   └── French/
+
 │       ├── TP1_POSTAG.ipynb      # Notebooks spécifiques au français
+
 │       └── TP3.ipynb
+
 ├── outputs/                       # Résultats (modèles entraînés, prédictions)
+
 │   ├── AQF/
+
 │   │   ├── TP1/
+
 │   │   └── TP3/
+
 │   └── French/
+
 │       ├── TP1/
+
 │       └── TP3/
+
 ├── src/                           # Scripts Python réutilisables
+
 │   ├── accuracy.py               # Script pour calculer l'accuracy et autres scores
+
 │   ├── conllulib.py             # Fonctions utilitaires pour manipuler du CoNLL-U
+
 │   └── ...
-└── tests/                         # Dossier pour les tests unitaires (optionnel)
+
+└── tests/                         # Dossier pour les tests des pistes
     └── ... 
+    
 ```
 
 ## Installation

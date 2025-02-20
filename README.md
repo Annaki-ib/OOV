@@ -85,9 +85,8 @@ Ouvrez-les dans Jupyter (ou JupyterLab) et exécutez-les dans l’ordre indiqué
 
 ## Jeux de données
 
-- Les fichiers UD pour le **français** proviennent par exemple de [Universal Dependencies](https://universaldependencies.org/) (UD_French-*Partut*, *Sequoia*, etc.).
-- Les fichiers UD pour le **dialecte algérien** proviennent de [votre source ou dataset personnalisé].
-- Vérifiez les licences de chaque corpus (souvent CC BY-SA ou similaire).
+- Les fichiers UD pour le **français** proviennent par exemple de [Universal Dependencies](https://universaldependencies.org/) (UD_French-*Partut*).
+- Les fichiers UD pour le **dialecte algérien** proviennent de[Universal Dependencies](https://universaldependencies.org/) .
 
 ## Résultats et modèles
 

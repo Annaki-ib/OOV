@@ -3,13 +3,14 @@
 # POS & Morph Tagging pour le Français et le Dialecte Algérien
 
 Ce projet vise à entraîner et évaluer des taggers morpho-syntaxiques (POS Tagging) et morphologiques (par exemple, le trait *Number*) sur deux langues :
-- Le **français**, via des corpus UD (Universal Dependencies).
-- Un **dialecte algérien**, également sous forme de fichiers UD (Universal Dependencies) Mélange de français anglais arabe écrite en Français.
+- Le français, via des corpus UD (Universal Dependencies).
+- Un dialecte algérien, également sous forme de fichiers UD (Universal Dependencies) Mélange de français anglais arabe écrite en Français.
 
 ## Structure du dépôt
 
 ```
 your-project/
+
 ├── README.md                      # Description générale du projet (ce fichier)
 ├── requirements.txt               # Liste des dépendances Python
 ├── French/                        # Corpus UD en français
@@ -39,18 +40,18 @@ your-project/
 │   ├── conllulib.py             # Fonctions utilitaires pour manipuler du CoNLL-U
 │   └── ...
 └── tests/                         # Dossier pour les tests unitaires (optionnel)
-    └── ...
+    └── ... 
 ```
 
 ## Installation
 
-1. **Cloner ce dépôt** :  
+1. Cloner ce dépôt :  
    ```bash
    git clone https://github.com/mon-compte/your-project.git
    cd your-project
    ```
 
-2. **Installer les dépendances** :  
+2. Installer les dépendances:  
    ```bash
    pip install -r requirements.txt
    ```
